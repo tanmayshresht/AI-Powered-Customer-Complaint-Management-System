@@ -1,73 +1,85 @@
-# React + TypeScript + Vite
+Markdown
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 AI-Powered Customer Complaint Management System
+### *API & FDF Quality Assurance (QMS) Module*
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Tech-React_%7C_Redux_%7C_FastAPI-blue?style=for-the-badge" alt="Tech Stack">
+  <img src="https://img.shields.io/badge/AI-LangGraph_%7C_Groq_Gemma2-orange?style=for-the-badge" alt="AI Engine">
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</div>
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Overview
+An intelligent, automated **Customer Complaint Management System** tailored for the pharmaceutical manufacturing industry (API & FDF Quality Management Systems). The platform features an AI-powered intake assistant that parses unstructured documents (PDF, TXT, DOCX, EML) or raw emails, extracts critical attributes via **LangGraph & Groq LLMs**, and automatically populates compliance triage forms.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* **Frontend:** React, Redux (State Management), Google Inter Font, Tailwind CSS/Styling
+* **Backend:** Python, FastAPI, LangGraph Agent Framework
+* **AI / LLM:** Groq API (`gemma2-9b-it` / `llama-3.3-70b-versatile`)
+* **Database:** PostgreSQL / MySQL (via SQLAlchemy)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ✨ Key Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+* 📄 **AI Complaint Intake Assistant:** Drag-and-drop or paste raw complaint text/documents to instantly extract key fields.
+* 🤖 **Agentic Workflow:** Powered by LangGraph to structure and validate extraction processes.
+* 📋 **Comprehensive Triage Form:** Automatically fills out Origin & Customer Details, Product & Batch Identification, Complaint Details, and Initial Assessment & Priority.
+* ⚡ **Real-time Progress Tracker:** Visual feedback during document analysis and field extraction.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🚀 Getting Started Locally
+
+Follow these steps to set up and run the project on your local machine.
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/tanmayshresht/AI-Powered-Customer-Complaint-Management-System.git](https://github.com/tanmayshresht/AI-Powered-Customer-Complaint-Management-System.git)
+cd AI-Powered-Customer-Complaint-Management-System
+2. Backend Setup (FastAPI)
+Navigate to the backend directory, create a virtual environment, and install dependencies:
+
+Bash
+cd backend
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+pip install -r requirements.txt
+Set up your environment variables (create a .env file based on .env.example with your Groq and Database credentials), then start the FastAPI server:
+
+Bash
+uvicorn main:app --reload --port 8000
+3. Frontend Setup (React)
+Open a new terminal window, return to the root directory, and run the frontend:
+
+Bash
+npm install
+npm run dev
+Open your browser and navigate to http://localhost:5173 to access the application.
+
+🎥 Demo & Walkthrough
+Working Demo: Watch the end-to-end walkthrough demonstrating AI intake extraction, form population, and code architecture [Insert Link to Video Here].
+
+📝 License
+This project is built for the AIVOA AI Product Engineer (Interns) assignment evaluation.
+
+
+---
+
+Isko apni repo ki `README.md` file mein daalne ke baad terminal mein bas yeh chala dena taaki GitHub par update ho jaye:
+```bash
+git add README.md
+git commit -m "Enhance README with a stylish, professional template"
+git push origin main
