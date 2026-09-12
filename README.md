@@ -69,8 +69,6 @@ npm install
 npm run dev
 Open your browser and navigate to http://localhost:5173 to access the application.
 
-🎥 Demo & Walkthrough
-Working Demo: Watch the end-to-end walkthrough demonstrating AI intake extraction, form population, and code architecture [Insert Link to Video Here].
 
 📝 License
 This project is built for the AIVOA AI Product Engineer (Interns) assignment evaluation.
@@ -78,7 +76,6 @@ This project is built for the AIVOA AI Product Engineer (Interns) assignment eva
 
 ---
 
-Isko apni repo ki `README.md` file mein daalne ke baad terminal mein bas yeh chala dena taaki GitHub par update ho jaye:
 ```bash
 git add README.md
 git commit -m "Enhance README with a stylish, professional template"
