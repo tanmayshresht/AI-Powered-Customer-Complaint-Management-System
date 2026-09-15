@@ -8,8 +8,7 @@ Markdown
   <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/Tech-React_%7C_Redux_%7C_FastAPI-blue?style=for-the-badge" alt="Tech Stack">
   <img src="https://img.shields.io/badge/AI-LangGraph_%7C_Groq_Gemma2-orange?style=for-the-badge" alt="AI Engine">
-  
-  [![Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Site-success?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-powered-customer-complaint-man-tan.vercel.app)
+      [![Live Demo] (https://ai-powered-customer-complaint-man-tan.vercel.app)
 </p>
 
 </div>
