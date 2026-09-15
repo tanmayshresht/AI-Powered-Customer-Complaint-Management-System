@@ -8,7 +8,6 @@ Markdown
   <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/Tech-React_%7C_Redux_%7C_FastAPI-blue?style=for-the-badge" alt="Tech Stack">
   <img src="https://img.shields.io/badge/AI-LangGraph_%7C_Groq_Gemma2-orange?style=for-the-badge" alt="AI Engine">
-      [![Live Demo] (https://ai-powered-customer-complaint-man-tan.vercel.app)
 </p>
 
 </div>
@@ -17,6 +16,7 @@ Markdown
 
 ## 📌 Overview
 An intelligent, automated **Customer Complaint Management System** tailored for the pharmaceutical manufacturing industry (API & FDF Quality Management Systems). The platform features an AI-powered intake assistant that parses unstructured documents (PDF, TXT, DOCX, EML) or raw emails, extracts critical attributes via **LangGraph & Groq LLMs**, and automatically populates compliance triage forms.
+Live Demo :- https://ai-powered-customer-complaint-man-tan.vercel.app
 
 ---
 
